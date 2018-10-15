@@ -1,5 +1,13 @@
 # Classificação binária de imagens
 
+É preciso criar um dataset de imagens, para fazer os testes eu utilizei 400
+imagens para treinamento e 100 imagens para validação do modelo, faço download
+das imagens do `Flickr` e depois manualmente seleciono as imagens e coloco em
+`validation`.  
+  
+E pra utilizar o script para fazer download de arquivos no `Flickr` é preciso
+criar as variáveis de ambientes `FLICKR_API_KEY` e `FLICKR_SECRET`.
+
 ### Instalar dependências
 
 ```bash
